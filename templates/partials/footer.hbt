@@ -1,0 +1,19 @@
+            </div> {{!-- END .main-wrapper --}}
+        <footer>
+            Projects
+            {{#each collections.projects }}
+            <div><a href="{{path}}">{{title}}</a></div>
+            {{/each}}
+
+            Posts
+            {{#each collections.posts }}
+            <div><a href="{{path}}">{{title}}</a></div>
+            {{/each}}
+
+            Pages
+            {{#each collections.pages }}
+            <div><a href="{{path}}">{{title}}</a></div>
+            {{/each}}
+        </footer>
+    </body>
+</html>
