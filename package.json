@@ -1,0 +1,19 @@
+{
+  "name": "juancgarcia",
+  "version": "1.0.0",
+  "description": "",
+  "author": "juancgarcia <juangarcia.info@gmail.com>",
+  "script": {
+    "ms": "node build.js"
+  },
+  "devDependencies": {
+    "metalsmith": "~0.10.0",
+    "metalsmith-markdown": "~0.2.1",
+    "metalsmith-templates": "~0.5.2",
+    "metalsmith-collections": "~0.6.0",
+    "metalsmith-permalinks": "~0.3.2",
+    "handlebars": "~2.0.0-alpha.4",
+    "metalsmith-branch": "0.0.4"
+  },
+  "private": "true"
+}
