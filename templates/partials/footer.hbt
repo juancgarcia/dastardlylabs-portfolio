@@ -1,19 +1,34 @@
             </div> {{!-- END .main-wrapper --}}
         <footer>
-            Projects
-            {{#each collections.projects }}
-            <div><a href="{{path}}">{{title}}</a></div>
-            {{/each}}
+            <div class="links">
+                <div class="linkgroup">
+                    <div class="title">Projects</div>
+                    <ul>{{#each collections.projects }}
+                    <li><a href="/{{path}}">{{title}}</a></li>{{/each}}
+                    </ul>
+                </div>
 
-            Posts
-            {{#each collections.posts }}
-            <div><a href="{{path}}">{{title}}</a></div>
-            {{/each}}
+                <div class="linkgroup">
+                    <div class="title">Posts</div>
+                    <ul>{{#each collections.posts }}
+                    <li><a href="/{{path}}">{{title}}</a></li>{{/each}}
+                    </ul>
+                </div>
 
-            Pages
-            {{#each collections.pages }}
-            <div><a href="{{path}}">{{title}}</a></div>
-            {{/each}}
+                <div class="linkgroup">
+                    <div class="title">Pages</div>
+                    <ul>{{#each collections.pages }}
+                    <li><a href="/{{path}}">{{title}}</a></li>{{/each}}
+                    </ul>
+                </div>
+            </div>
         </footer>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js?onload=onLoadCallback';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
     </body>
 </html>

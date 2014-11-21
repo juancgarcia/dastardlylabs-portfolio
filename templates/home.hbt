@@ -2,5 +2,13 @@
 <h2>{{title}}</h2>
 
 {{{ contents }}}
+            <div class="links">
+                <div class="linkgroup">
+                    <div class="title">Projects</div>
+                    <ul>{{#each collections.projects }}
+                    <li><a href="/{{path}}">{{title}}</a></li>{{/each}}
+                    </ul>
+                </div>
+            </div>
 
 {{> footer}}

@@ -3,17 +3,19 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>juancgarcia | {{title}}</title>
+        <title>the DastardlyLabs of &lt;juancgarcia&gt; | {{title}}</title>
 
         <meta name="viewport" content="width=device-width">
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/css/main.css">
     </head>
     <body>
 
         <header>
-            <h1 class="logo"><a href="/">juancgarcia</a></h1> 
+            <h1 class="logo"><a href="/">&lt;juancgarcia&gt;</a> | {{title}}</h1> 
         </header>
 
-
+        <!-- <div class="gp"><iframe id="widgetFrame" src="http://widgplus.com/templates/new/activity.php?plusid=102332791075065617239&textcolor=FFFFFF&bg=333&contentbg=555&linkcolor4D90FE" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:282px; height:362px;"></iframe> </div> -->
         <div class="main-wrapper">
             
 
